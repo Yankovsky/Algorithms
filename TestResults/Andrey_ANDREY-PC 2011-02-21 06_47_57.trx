@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="44a286a8-5a46-48d5-ab5a-7c23dbcc6864" name="Andrey@ANDREY-PC 2011-02-21 06:47:57" runUser="Andrey-PC\Andrey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff478fa6-024a-483a-9be0-313d855fd047">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Andrey_ANDREY-PC 2011-02-21 06_47_57">
+      <DeploymentItem filename="C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.dll" />
+      <DeploymentItem filename="C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\DataProvider\bin\Debug\DataProvider.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-21T06:47:57.6173646+03:00" queuing="2011-02-21T06:47:58.3253778+03:00" start="2011-02-21T06:47:58.4853780+03:00" finish="2011-02-21T06:47:59.4853794+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OddEvenSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="4dc39874-9060-b017-f795-6409d119ab17">
+      <Execution id="78ef3f53-b80b-4e60-b63c-29fe62f5c75c" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OddEvenSortTest" />
+    </UnitTest>
+    <UnitTest name="CountingSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="a5a6d6b3-20d6-02bb-fede-49b0784fecec">
+      <Execution id="41941d90-6be9-47c1-bbb7-0003e405ff6f" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountingSortTest" />
+    </UnitTest>
+    <UnitTest name="BinarySearchElementNotFoundTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="5945cbcb-461f-9285-726e-b69503ac5b3e">
+      <Execution id="fe7b7f46-088b-469c-ab62-cdf5c4e1f8c2" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SearchAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySearchElementNotFoundTest" />
+    </UnitTest>
+    <UnitTest name="SelectionSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="3f2c0fdd-fa37-09fd-32e0-c922a3352015">
+      <Execution id="40bdf643-adb9-43ab-8396-e1ec996b26c6" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectionSortTest" />
+    </UnitTest>
+    <UnitTest name="CombSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="0d683431-c2f0-f2fa-df53-94275b517ebc">
+      <Execution id="436a03a1-1ad7-4aad-a0dd-d4f87e034fda" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CombSortTest" />
+    </UnitTest>
+    <UnitTest name="TreeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="9c26a03f-c6c2-c94d-c870-e133c73aa2a7">
+      <Execution id="68647c6d-4ad3-4934-9aa4-411f4c413de5" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TreeSortTest" />
+    </UnitTest>
+    <UnitTest name="BubbleSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="592f399e-f391-2ca0-122e-250eff5c5f72">
+      <Execution id="86ddf83f-a0b7-4a11-9958-0b82da099038" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BubbleSortTest" />
+    </UnitTest>
+    <UnitTest name="BinarySearchTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="c178492b-4f05-52c3-993f-1f4ece20ef13">
+      <Execution id="5fab54b7-90f6-4311-a9b0-796a1b079b57" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SearchAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySearchTest" />
+    </UnitTest>
+    <UnitTest name="OptimizedCocktailSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="f23faed7-ae06-52da-72fd-742a78a63a55">
+      <Execution id="8f05137b-23a8-4209-af78-34644b3d00d8" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimizedCocktailSortTest" />
+    </UnitTest>
+    <UnitTest name="OptimizedBubbleSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="454cfaa5-807b-43af-2eac-fb5ce5d110c2">
+      <Execution id="f3b0c0e7-708b-4931-833d-3e994aeb500b" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimizedBubbleSortTest" />
+    </UnitTest>
+    <UnitTest name="GnomeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="282449f0-d57e-913e-8fe3-de5c1cb6713d">
+      <Execution id="894bae16-76c7-4488-84ca-c57627923ffe" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GnomeSortTest" />
+    </UnitTest>
+    <UnitTest name="ShellSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="1d719bbe-9deb-b4a7-79b1-a26f4a6bcfeb">
+      <Execution id="92cdf44f-fb7e-488b-909b-4ec1034e45c0" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShellSortTest" />
+    </UnitTest>
+    <UnitTest name="MergeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="8fa5ce03-0122-ef29-6a34-a08d7cee9bd0">
+      <Execution id="416cd3e3-bef7-4436-b320-a32a55c490a1" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MergeSortTest" />
+    </UnitTest>
+    <UnitTest name="InsertionSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="7e34c03b-3fc0-f6f9-ffd2-cf1ea19dd9f7">
+      <Execution id="2fa72459-df82-4a94-94e9-a47a210221c1" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertionSortTest" />
+    </UnitTest>
+    <UnitTest name="OptimizedMergeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="85389093-93b5-ebff-b1fc-97f9fe57bb83">
+      <Execution id="f25e670b-be17-4bc6-9cd7-23e662737e3f" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimizedMergeSortTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0d683431-c2f0-f2fa-df53-94275b517ebc" executionId="436a03a1-1ad7-4aad-a0dd-d4f87e034fda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d719bbe-9deb-b4a7-79b1-a26f4a6bcfeb" executionId="92cdf44f-fb7e-488b-909b-4ec1034e45c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="282449f0-d57e-913e-8fe3-de5c1cb6713d" executionId="894bae16-76c7-4488-84ca-c57627923ffe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f2c0fdd-fa37-09fd-32e0-c922a3352015" executionId="40bdf643-adb9-43ab-8396-e1ec996b26c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="454cfaa5-807b-43af-2eac-fb5ce5d110c2" executionId="f3b0c0e7-708b-4931-833d-3e994aeb500b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dc39874-9060-b017-f795-6409d119ab17" executionId="78ef3f53-b80b-4e60-b63c-29fe62f5c75c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="592f399e-f391-2ca0-122e-250eff5c5f72" executionId="86ddf83f-a0b7-4a11-9958-0b82da099038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5945cbcb-461f-9285-726e-b69503ac5b3e" executionId="fe7b7f46-088b-469c-ab62-cdf5c4e1f8c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e34c03b-3fc0-f6f9-ffd2-cf1ea19dd9f7" executionId="2fa72459-df82-4a94-94e9-a47a210221c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85389093-93b5-ebff-b1fc-97f9fe57bb83" executionId="f25e670b-be17-4bc6-9cd7-23e662737e3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fa5ce03-0122-ef29-6a34-a08d7cee9bd0" executionId="416cd3e3-bef7-4436-b320-a32a55c490a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c26a03f-c6c2-c94d-c870-e133c73aa2a7" executionId="68647c6d-4ad3-4934-9aa4-411f4c413de5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5a6d6b3-20d6-02bb-fede-49b0784fecec" executionId="41941d90-6be9-47c1-bbb7-0003e405ff6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c178492b-4f05-52c3-993f-1f4ece20ef13" executionId="5fab54b7-90f6-4311-a9b0-796a1b079b57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f23faed7-ae06-52da-72fd-742a78a63a55" executionId="8f05137b-23a8-4209-af78-34644b3d00d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="436a03a1-1ad7-4aad-a0dd-d4f87e034fda" testId="0d683431-c2f0-f2fa-df53-94275b517ebc" testName="CombSortTest" computerName="ANDREY-PC" duration="00:00:00.0262008" startTime="2011-02-21T06:47:58.5553781+03:00" endTime="2011-02-21T06:47:59.0553788+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="436a03a1-1ad7-4aad-a0dd-d4f87e034fda">
+    </UnitTestResult>
+    <UnitTestResult executionId="92cdf44f-fb7e-488b-909b-4ec1034e45c0" testId="1d719bbe-9deb-b4a7-79b1-a26f4a6bcfeb" testName="ShellSortTest" computerName="ANDREY-PC" duration="00:00:00.0015001" startTime="2011-02-21T06:47:59.0653788+03:00" endTime="2011-02-21T06:47:59.0753788+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92cdf44f-fb7e-488b-909b-4ec1034e45c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="894bae16-76c7-4488-84ca-c57627923ffe" testId="282449f0-d57e-913e-8fe3-de5c1cb6713d" testName="GnomeSortTest" computerName="ANDREY-PC" duration="00:00:00.0200235" startTime="2011-02-21T06:47:59.0753788+03:00" endTime="2011-02-21T06:47:59.1053789+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="894bae16-76c7-4488-84ca-c57627923ffe">
+    </UnitTestResult>
+    <UnitTestResult executionId="40bdf643-adb9-43ab-8396-e1ec996b26c6" testId="3f2c0fdd-fa37-09fd-32e0-c922a3352015" testName="SelectionSortTest" computerName="ANDREY-PC" duration="00:00:00.0111340" startTime="2011-02-21T06:47:59.1153789+03:00" endTime="2011-02-21T06:47:59.1453789+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40bdf643-adb9-43ab-8396-e1ec996b26c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3b0c0e7-708b-4931-833d-3e994aeb500b" testId="454cfaa5-807b-43af-2eac-fb5ce5d110c2" testName="OptimizedBubbleSortTest" computerName="ANDREY-PC" duration="00:00:00.0191786" startTime="2011-02-21T06:47:59.1453789+03:00" endTime="2011-02-21T06:47:59.1753790+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3b0c0e7-708b-4931-833d-3e994aeb500b">
+    </UnitTestResult>
+    <UnitTestResult executionId="78ef3f53-b80b-4e60-b63c-29fe62f5c75c" testId="4dc39874-9060-b017-f795-6409d119ab17" testName="OddEvenSortTest" computerName="ANDREY-PC" duration="00:00:00.0194167" startTime="2011-02-21T06:47:59.1753790+03:00" endTime="2011-02-21T06:47:59.2053790+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78ef3f53-b80b-4e60-b63c-29fe62f5c75c">
+    </UnitTestResult>
+    <UnitTestResult executionId="86ddf83f-a0b7-4a11-9958-0b82da099038" testId="592f399e-f391-2ca0-122e-250eff5c5f72" testName="BubbleSortTest" computerName="ANDREY-PC" duration="00:00:00.0273159" startTime="2011-02-21T06:47:59.2053790+03:00" endTime="2011-02-21T06:47:59.2453791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86ddf83f-a0b7-4a11-9958-0b82da099038">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe7b7f46-088b-469c-ab62-cdf5c4e1f8c2" testId="5945cbcb-461f-9285-726e-b69503ac5b3e" testName="BinarySearchElementNotFoundTest" computerName="ANDREY-PC" duration="00:00:00.0018370" startTime="2011-02-21T06:47:59.2453791+03:00" endTime="2011-02-21T06:47:59.2553791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe7b7f46-088b-469c-ab62-cdf5c4e1f8c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fa72459-df82-4a94-94e9-a47a210221c1" testId="7e34c03b-3fc0-f6f9-ffd2-cf1ea19dd9f7" testName="InsertionSortTest" computerName="ANDREY-PC" duration="00:00:00.0203194" startTime="2011-02-21T06:47:59.2553791+03:00" endTime="2011-02-21T06:47:59.2853791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fa72459-df82-4a94-94e9-a47a210221c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="f25e670b-be17-4bc6-9cd7-23e662737e3f" testId="85389093-93b5-ebff-b1fc-97f9fe57bb83" testName="OptimizedMergeSortTest" computerName="ANDREY-PC" duration="00:00:00.0022026" startTime="2011-02-21T06:47:59.2953791+03:00" endTime="2011-02-21T06:47:59.3053791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f25e670b-be17-4bc6-9cd7-23e662737e3f">
+    </UnitTestResult>
+    <UnitTestResult executionId="416cd3e3-bef7-4436-b320-a32a55c490a1" testId="8fa5ce03-0122-ef29-6a34-a08d7cee9bd0" testName="MergeSortTest" computerName="ANDREY-PC" duration="00:00:00.0049976" startTime="2011-02-21T06:47:59.3153792+03:00" endTime="2011-02-21T06:47:59.3453792+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="416cd3e3-bef7-4436-b320-a32a55c490a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="68647c6d-4ad3-4934-9aa4-411f4c413de5" testId="9c26a03f-c6c2-c94d-c870-e133c73aa2a7" testName="TreeSortTest" computerName="ANDREY-PC" duration="00:00:00.0081306" startTime="2011-02-21T06:47:59.3453792+03:00" endTime="2011-02-21T06:47:59.3653792+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68647c6d-4ad3-4934-9aa4-411f4c413de5">
+    </UnitTestResult>
+    <UnitTestResult executionId="41941d90-6be9-47c1-bbb7-0003e405ff6f" testId="a5a6d6b3-20d6-02bb-fede-49b0784fecec" testName="CountingSortTest" computerName="ANDREY-PC" duration="00:00:00.0011146" startTime="2011-02-21T06:47:59.3653792+03:00" endTime="2011-02-21T06:47:59.3753792+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41941d90-6be9-47c1-bbb7-0003e405ff6f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5fab54b7-90f6-4311-a9b0-796a1b079b57" testId="c178492b-4f05-52c3-993f-1f4ece20ef13" testName="BinarySearchTest" computerName="ANDREY-PC" duration="00:00:00.0017060" startTime="2011-02-21T06:47:59.3753792+03:00" endTime="2011-02-21T06:47:59.3853793+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fab54b7-90f6-4311-a9b0-796a1b079b57">
+    </UnitTestResult>
+    <UnitTestResult executionId="8f05137b-23a8-4209-af78-34644b3d00d8" testId="f23faed7-ae06-52da-72fd-742a78a63a55" testName="OptimizedCocktailSortTest" computerName="ANDREY-PC" duration="00:00:00.0161046" startTime="2011-02-21T06:47:59.3953793+03:00" endTime="2011-02-21T06:47:59.4153793+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f05137b-23a8-4209-af78-34644b3d00d8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

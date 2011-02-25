@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c70378d6-902e-4497-92c3-b34c9c9d3a32" name="Andrey@ANDREY-PC 2011-02-25 23:18:42" runUser="Andrey-PC\Andrey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff478fa6-024a-483a-9be0-313d855fd047">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Andrey_ANDREY-PC 2011-02-25 23_18_42">
+      <DeploymentItem filename="C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.dll" />
+      <DeploymentItem filename="C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\DataProvider\bin\Debug\DataProvider.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-25T23:18:42.3653066+03:00" queuing="2011-02-25T23:18:42.3833077+03:00" start="2011-02-25T23:18:42.3993086+03:00" finish="2011-02-25T23:18:43.6263788+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="15" executed="15" passed="2" error="0" failed="13" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OddEvenSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="4dc39874-9060-b017-f795-6409d119ab17">
+      <Execution id="aced446f-e764-4c91-bd62-66a4cff4785d" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OddEvenSortTest" />
+    </UnitTest>
+    <UnitTest name="CountingSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="a5a6d6b3-20d6-02bb-fede-49b0784fecec">
+      <Execution id="eb4a7b61-e9ed-4e51-a34e-41d055728be0" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountingSortTest" />
+    </UnitTest>
+    <UnitTest name="BinarySearchElementNotFoundTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="5945cbcb-461f-9285-726e-b69503ac5b3e">
+      <Execution id="ec0f13e9-61dd-4109-b8a1-03062e8346f5" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SearchAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySearchElementNotFoundTest" />
+    </UnitTest>
+    <UnitTest name="SelectionSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="3f2c0fdd-fa37-09fd-32e0-c922a3352015">
+      <Execution id="a7c7e889-44df-4346-b5ac-1c5317106660" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectionSortTest" />
+    </UnitTest>
+    <UnitTest name="CombSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="0d683431-c2f0-f2fa-df53-94275b517ebc">
+      <Execution id="0d43bcd5-82da-44e2-8096-acf7d8e77e8d" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CombSortTest" />
+    </UnitTest>
+    <UnitTest name="TreeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="9c26a03f-c6c2-c94d-c870-e133c73aa2a7">
+      <Execution id="516bcdf0-fa3d-4614-b8aa-5140d4eb123b" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TreeSortTest" />
+    </UnitTest>
+    <UnitTest name="BubbleSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="592f399e-f391-2ca0-122e-250eff5c5f72">
+      <Execution id="23713dc0-004f-4fb9-97bb-c79873928cd9" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BubbleSortTest" />
+    </UnitTest>
+    <UnitTest name="BinarySearchTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="c178492b-4f05-52c3-993f-1f4ece20ef13">
+      <Execution id="83cd5792-8a35-47a1-9d19-42de853cc7b2" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SearchAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySearchTest" />
+    </UnitTest>
+    <UnitTest name="OptimizedCocktailSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="f23faed7-ae06-52da-72fd-742a78a63a55">
+      <Execution id="8cce5d6c-f2f2-432b-bace-c3e913d0d50c" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimizedCocktailSortTest" />
+    </UnitTest>
+    <UnitTest name="OptimizedBubbleSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="454cfaa5-807b-43af-2eac-fb5ce5d110c2">
+      <Execution id="5c98ab7c-2e37-40ad-bb4a-642bf9b127ec" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimizedBubbleSortTest" />
+    </UnitTest>
+    <UnitTest name="GnomeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="282449f0-d57e-913e-8fe3-de5c1cb6713d">
+      <Execution id="70c86de0-d75b-4234-8b1f-7cf07c89e9a9" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GnomeSortTest" />
+    </UnitTest>
+    <UnitTest name="ShellSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="1d719bbe-9deb-b4a7-79b1-a26f4a6bcfeb">
+      <Execution id="de6d5b68-ce83-40a6-b96c-66dd6bf72146" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShellSortTest" />
+    </UnitTest>
+    <UnitTest name="MergeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="8fa5ce03-0122-ef29-6a34-a08d7cee9bd0">
+      <Execution id="c7d0e3ce-f891-4c63-a95f-f4afeaeec7ac" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MergeSortTest" />
+    </UnitTest>
+    <UnitTest name="InsertionSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="7e34c03b-3fc0-f6f9-ffd2-cf1ea19dd9f7">
+      <Execution id="2d340fd7-b1f8-4b5c-8bdb-ba2a87e6efd9" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertionSortTest" />
+    </UnitTest>
+    <UnitTest name="OptimizedMergeSortTest" storage="c:\users\andrey\documents\visual studio 2010\projects\algorithms\algorithmstests\bin\debug\algorithmstests.dll" id="85389093-93b5-ebff-b1fc-97f9fe57bb83">
+      <Execution id="7e4dba71-d923-4811-9f0b-c451834c85cf" />
+      <TestMethod codeBase="C:/Users/Andrey/Documents/Visual Studio 2010/Projects/Algorithms/AlgorithmsTests/bin/Debug/AlgorithmsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AlgorithmsTests.SortingAlgorithmsTests, AlgorithmsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimizedMergeSortTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0d683431-c2f0-f2fa-df53-94275b517ebc" executionId="0d43bcd5-82da-44e2-8096-acf7d8e77e8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d719bbe-9deb-b4a7-79b1-a26f4a6bcfeb" executionId="de6d5b68-ce83-40a6-b96c-66dd6bf72146" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="282449f0-d57e-913e-8fe3-de5c1cb6713d" executionId="70c86de0-d75b-4234-8b1f-7cf07c89e9a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f2c0fdd-fa37-09fd-32e0-c922a3352015" executionId="a7c7e889-44df-4346-b5ac-1c5317106660" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="454cfaa5-807b-43af-2eac-fb5ce5d110c2" executionId="5c98ab7c-2e37-40ad-bb4a-642bf9b127ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dc39874-9060-b017-f795-6409d119ab17" executionId="aced446f-e764-4c91-bd62-66a4cff4785d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="592f399e-f391-2ca0-122e-250eff5c5f72" executionId="23713dc0-004f-4fb9-97bb-c79873928cd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5945cbcb-461f-9285-726e-b69503ac5b3e" executionId="ec0f13e9-61dd-4109-b8a1-03062e8346f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e34c03b-3fc0-f6f9-ffd2-cf1ea19dd9f7" executionId="2d340fd7-b1f8-4b5c-8bdb-ba2a87e6efd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85389093-93b5-ebff-b1fc-97f9fe57bb83" executionId="7e4dba71-d923-4811-9f0b-c451834c85cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fa5ce03-0122-ef29-6a34-a08d7cee9bd0" executionId="c7d0e3ce-f891-4c63-a95f-f4afeaeec7ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c26a03f-c6c2-c94d-c870-e133c73aa2a7" executionId="516bcdf0-fa3d-4614-b8aa-5140d4eb123b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5a6d6b3-20d6-02bb-fede-49b0784fecec" executionId="eb4a7b61-e9ed-4e51-a34e-41d055728be0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c178492b-4f05-52c3-993f-1f4ece20ef13" executionId="83cd5792-8a35-47a1-9d19-42de853cc7b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f23faed7-ae06-52da-72fd-742a78a63a55" executionId="8cce5d6c-f2f2-432b-bace-c3e913d0d50c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0d43bcd5-82da-44e2-8096-acf7d8e77e8d" testId="0d683431-c2f0-f2fa-df53-94275b517ebc" testName="CombSortTest" computerName="ANDREY-PC" duration="00:00:00.1395037" startTime="2011-02-25T23:18:42.4273102+03:00" endTime="2011-02-25T23:18:42.8903367+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d43bcd5-82da-44e2-8096-acf7d8e77e8d">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.CombSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de6d5b68-ce83-40a6-b96c-66dd6bf72146" testId="1d719bbe-9deb-b4a7-79b1-a26f4a6bcfeb" testName="ShellSortTest" computerName="ANDREY-PC" duration="00:00:00.0085638" startTime="2011-02-25T23:18:42.9113379+03:00" endTime="2011-02-25T23:18:42.9293389+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de6d5b68-ce83-40a6-b96c-66dd6bf72146">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.ShellSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70c86de0-d75b-4234-8b1f-7cf07c89e9a9" testId="282449f0-d57e-913e-8fe3-de5c1cb6713d" testName="GnomeSortTest" computerName="ANDREY-PC" duration="00:00:00.0223982" startTime="2011-02-25T23:18:42.9493400+03:00" endTime="2011-02-25T23:18:43.0453455+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70c86de0-d75b-4234-8b1f-7cf07c89e9a9">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.GnomeSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7c7e889-44df-4346-b5ac-1c5317106660" testId="3f2c0fdd-fa37-09fd-32e0-c922a3352015" testName="SelectionSortTest" computerName="ANDREY-PC" duration="00:00:00.0122876" startTime="2011-02-25T23:18:43.0603464+03:00" endTime="2011-02-25T23:18:43.0843478+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7c7e889-44df-4346-b5ac-1c5317106660">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.SelectionSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 61
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c98ab7c-2e37-40ad-bb4a-642bf9b127ec" testId="454cfaa5-807b-43af-2eac-fb5ce5d110c2" testName="OptimizedBubbleSortTest" computerName="ANDREY-PC" duration="00:00:00.0253326" startTime="2011-02-25T23:18:43.0933483+03:00" endTime="2011-02-25T23:18:43.2443569+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c98ab7c-2e37-40ad-bb4a-642bf9b127ec">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.OptimizedBubbleSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aced446f-e764-4c91-bd62-66a4cff4785d" testId="4dc39874-9060-b017-f795-6409d119ab17" testName="OddEvenSortTest" computerName="ANDREY-PC" duration="00:00:00.0232630" startTime="2011-02-25T23:18:43.2643581+03:00" endTime="2011-02-25T23:18:43.3073605+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aced446f-e764-4c91-bd62-66a4cff4785d">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.OddEvenSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23713dc0-004f-4fb9-97bb-c79873928cd9" testId="592f399e-f391-2ca0-122e-250eff5c5f72" testName="BubbleSortTest" computerName="ANDREY-PC" duration="00:00:00.0298582" startTime="2011-02-25T23:18:43.3103607+03:00" endTime="2011-02-25T23:18:43.3743644+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23713dc0-004f-4fb9-97bb-c79873928cd9">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.BubbleSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec0f13e9-61dd-4109-b8a1-03062e8346f5" testId="5945cbcb-461f-9285-726e-b69503ac5b3e" testName="BinarySearchElementNotFoundTest" computerName="ANDREY-PC" duration="00:00:00.0015862" startTime="2011-02-25T23:18:43.3773645+03:00" endTime="2011-02-25T23:18:43.3923654+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec0f13e9-61dd-4109-b8a1-03062e8346f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="2d340fd7-b1f8-4b5c-8bdb-ba2a87e6efd9" testId="7e34c03b-3fc0-f6f9-ffd2-cf1ea19dd9f7" testName="InsertionSortTest" computerName="ANDREY-PC" duration="00:00:00.0205304" startTime="2011-02-25T23:18:43.3983657+03:00" endTime="2011-02-25T23:18:43.4353678+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d340fd7-b1f8-4b5c-8bdb-ba2a87e6efd9">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.InsertionSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e4dba71-d923-4811-9f0b-c451834c85cf" testId="85389093-93b5-ebff-b1fc-97f9fe57bb83" testName="OptimizedMergeSortTest" computerName="ANDREY-PC" duration="00:00:00.0041221" startTime="2011-02-25T23:18:43.4393681+03:00" endTime="2011-02-25T23:18:43.4583692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e4dba71-d923-4811-9f0b-c451834c85cf">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.OptimizedMergeSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7d0e3ce-f891-4c63-a95f-f4afeaeec7ac" testId="8fa5ce03-0122-ef29-6a34-a08d7cee9bd0" testName="MergeSortTest" computerName="ANDREY-PC" duration="00:00:00.0077200" startTime="2011-02-25T23:18:43.4623694+03:00" endTime="2011-02-25T23:18:43.4853707+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7d0e3ce-f891-4c63-a95f-f4afeaeec7ac">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.MergeSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="516bcdf0-fa3d-4614-b8aa-5140d4eb123b" testId="9c26a03f-c6c2-c94d-c870-e133c73aa2a7" testName="TreeSortTest" computerName="ANDREY-PC" duration="00:00:00.0120982" startTime="2011-02-25T23:18:43.4883709+03:00" endTime="2011-02-25T23:18:43.5083720+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="516bcdf0-fa3d-4614-b8aa-5140d4eb123b">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.TreeSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb4a7b61-e9ed-4e51-a34e-41d055728be0" testId="a5a6d6b3-20d6-02bb-fede-49b0784fecec" testName="CountingSortTest" computerName="ANDREY-PC" duration="00:00:00.0048830" startTime="2011-02-25T23:18:43.5123722+03:00" endTime="2011-02-25T23:18:43.5333734+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb4a7b61-e9ed-4e51-a34e-41d055728be0">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.CountingSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83cd5792-8a35-47a1-9d19-42de853cc7b2" testId="c178492b-4f05-52c3-993f-1f4ece20ef13" testName="BinarySearchTest" computerName="ANDREY-PC" duration="00:00:00.0011315" startTime="2011-02-25T23:18:43.5363736+03:00" endTime="2011-02-25T23:18:43.5523745+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83cd5792-8a35-47a1-9d19-42de853cc7b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="8cce5d6c-f2f2-432b-bace-c3e913d0d50c" testId="f23faed7-ae06-52da-72fd-742a78a63a55" testName="OptimizedCocktailSortTest" computerName="ANDREY-PC" duration="00:00:00.0259971" startTime="2011-02-25T23:18:43.5543746+03:00" endTime="2011-02-25T23:18:43.5943769+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cce5d6c-f2f2-432b-bace-c3e913d0d50c">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreNotEqual failed. hi(Both collection contain same elements.)</Message>
+          <StackTrace>   at AlgorithmsTests.SortingAlgorithmsTests.GeneralSortTest(Func`2 sortAlgorithm) in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 105
+   at AlgorithmsTests.SortingAlgorithmsTests.OptimizedCocktailSortTest() in C:\Users\Andrey\Documents\Visual Studio 2010\Projects\Algorithms\AlgorithmsTests\SortingAlgorithmsTests.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
